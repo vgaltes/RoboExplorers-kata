@@ -1,0 +1,6 @@
+D:\Codi\iExpertos\Roboexplorers\Iteracion1.2\RoboExplorers.Test\RoboExplorers.Test\obj\Debug\ResolveAssemblyReference.cache
+D:\Codi\iExpertos\Roboexplorers\Iteracion1.2\RoboExplorers.Test\RoboExplorers.Test\bin\Debug\RoboExplorers.Test.dll
+D:\Codi\iExpertos\Roboexplorers\Iteracion1.2\RoboExplorers.Test\RoboExplorers.Test\bin\Debug\RoboExplorers.Test.pdb
+D:\Codi\iExpertos\Roboexplorers\Iteracion1.2\RoboExplorers.Test\RoboExplorers.Test\bin\Debug\Moq.dll
+D:\Codi\iExpertos\Roboexplorers\Iteracion1.2\RoboExplorers.Test\RoboExplorers.Test\obj\Debug\RoboExplorers.Test.dll
+D:\Codi\iExpertos\Roboexplorers\Iteracion1.2\RoboExplorers.Test\RoboExplorers.Test\obj\Debug\RoboExplorers.Test.pdb

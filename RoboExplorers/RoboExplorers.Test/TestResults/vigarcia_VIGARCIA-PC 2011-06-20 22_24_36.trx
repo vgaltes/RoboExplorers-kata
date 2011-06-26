@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="cf0213c4-3567-4f4f-a1f5-88a3da1d43be" name="vigarcia@VIGARCIA-PC 2011-06-20 22:24:36" runUser="vigarcia-PC\vigarcia" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="2436ce74-7167-4c3b-9c14-34f93e8fdd86">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment runDeploymentRoot="vigarcia_VIGARCIA-PC 2011-06-20 22_24_36">
+      <DeploymentItem filename="D:\Codi\iExpertos\Roboexplorers\3rd party libraries\Moq.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+        <WebTestRunConfiguration testTypeId="4e7599fa-5ecb-43e9-a887-cd63cf72d207">
+          <Browser name="Internet Explorer 7.0">
+            <Headers>
+              <Header name="User-Agent" value="Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)" />
+              <Header name="Accept" value="*/*" />
+              <Header name="Accept-Language" value="{{$IEAcceptLanguage}}" />
+              <Header name="Accept-Encoding" value="GZIP" />
+            </Headers>
+          </Browser>
+        </WebTestRunConfiguration>
+      </TestTypeSpecific>
+      <AgentRule name="LocalMachineDefaultRole">
+        <DataCollectors>
+          <DataCollector uri="datacollector://microsoft/CodeCoverage/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.CodeCoverage.CoveragePlugIn, Microsoft.VisualStudio.QualityTools.Plugins.CodeCoverage, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Code Coverage">
+            <Configuration>
+              <CodeCoverage xmlns="">
+                <Regular>
+                  <CodeCoverageItem binaryFile="D:\Codi\iExpertos\Roboexplorers\Iteracion1.2\RoboExplorers.Test\RoboExplorers.Test\bin\Debug\RoboExplorers.Test.dll" pdbFile="D:\Codi\iExpertos\Roboexplorers\Iteracion1.2\RoboExplorers.Test\RoboExplorers.Test\bin\Debug\RoboExplorers.Test.instr.pdb" instrumentInPlace="true" />
+                </Regular>
+              </CodeCoverage>
+            </Configuration>
+          </DataCollector>
+        </DataCollectors>
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-06-20T22:24:36.5029993+02:00" queuing="2011-06-20T22:24:36.8210002+02:00" start="2011-06-20T22:24:36.8678003+02:00" finish="2011-06-20T22:24:41.0973080+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="9" executed="9" passed="9" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <ResultFiles>
+      <ResultFile path="VIGARCIA-PC\data.coverage" />
+    </ResultFiles>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TengoQueLlamarAlSleeperAntesDeTirar" storage="d:\codi\iexpertos\roboexplorers\iteracion1.2\roboexplorers.test\roboexplorers.test\bin\debug\roboexplorers.test.dll" id="01b6ffec-8b84-4c73-8a63-6723c8bd9ec9">
+      <Execution id="b4741636-d6c2-4ded-b99f-89c3529615e3" />
+      <TestMethod codeBase="D:/Codi/iExpertos/Roboexplorers/Iteracion1.2/RoboExplorers.Test/RoboExplorers.Test/bin/Debug/RoboExplorers.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RoboExplorers.Test.RoboExplorerTest, RoboExplorers.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TengoQueLlamarAlSleeperAntesDeTirar" />
+    </UnitTest>
+    <UnitTest name="DespuesDeMilTiradasTodosLosNumerosEstanEntre0Y100" storage="d:\codi\iexpertos\roboexplorers\iteracion1.2\roboexplorers.test\roboexplorers.test\bin\debug\roboexplorers.test.dll" id="8a496610-2df1-5692-f1fb-abdea48d3ea9">
+      <Execution id="ad6ef151-6153-4127-8d63-a5685780cf95" />
+      <TestMethod codeBase="D:/Codi/iExpertos/Roboexplorers/Iteracion1.2/RoboExplorers.Test/RoboExplorers.Test/bin/Debug/RoboExplorers.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RoboExplorers.Test.DontRepeatMoveCreatorTest, RoboExplorers.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DespuesDeMilTiradasTodosLosNumerosEstanEntre0Y100" />
+    </UnitTest>
+    <UnitTest name="SiElServidorMeDevuelveGameOverDespuesDeUnMovimientoDejoDeMover" storage="d:\codi\iexpertos\roboexplorers\iteracion1.2\roboexplorers.test\roboexplorers.test\bin\debug\roboexplorers.test.dll" id="bf2652ba-4cc2-e011-2f79-22713ef77a44">
+      <Execution id="60bbfbef-fd62-40a4-aca9-693de729e3c0" />
+      <TestMethod codeBase="D:/Codi/iExpertos/Roboexplorers/Iteracion1.2/RoboExplorers.Test/RoboExplorers.Test/bin/Debug/RoboExplorers.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RoboExplorers.Test.RoboExplorerTest, RoboExplorers.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SiElServidorMeDevuelveGameOverDespuesDeUnMovimientoDejoDeMover" />
+    </UnitTest>
+    <UnitTest name="NoRepitoDosTiradasConsecutivas" storage="d:\codi\iexpertos\roboexplorers\iteracion1.2\roboexplorers.test\roboexplorers.test\bin\debug\roboexplorers.test.dll" id="81afa8e2-1b34-5099-a9e6-9debbfae1d61">
+      <Execution id="037eb6d1-c53d-4434-932f-57a135123fc4" />
+      <TestMethod codeBase="D:/Codi/iExpertos/Roboexplorers/Iteracion1.2/RoboExplorers.Test/RoboExplorers.Test/bin/Debug/RoboExplorers.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RoboExplorers.Test.DontRepeatMoveCreatorTest, RoboExplorers.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NoRepitoDosTiradasConsecutivas" />
+    </UnitTest>
+    <UnitTest name="Espero200MilisegundosEntreLlamadas" storage="d:\codi\iexpertos\roboexplorers\iteracion1.2\roboexplorers.test\roboexplorers.test\bin\debug\roboexplorers.test.dll" id="a87b2540-300d-8595-b2ae-6881f040bd22">
+      <Execution id="c4f5fd97-72b3-4aca-9fc0-b0614ae0c370" />
+      <TestMethod codeBase="D:/Codi/iExpertos/Roboexplorers/Iteracion1.2/RoboExplorers.Test/RoboExplorers.Test/bin/Debug/RoboExplorers.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RoboExplorers.Test.WaitSomeTimeTest, RoboExplorers.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Espero200MilisegundosEntreLlamadas" />
+    </UnitTest>
+    <UnitTest name="SiInitializeNoMeDevueleOKNoLlamoAMove" storage="d:\codi\iexpertos\roboexplorers\iteracion1.2\roboexplorers.test\roboexplorers.test\bin\debug\roboexplorers.test.dll" id="aad2a240-d7aa-024c-e579-311a5878a392">
+      <Execution id="c65883a0-bfbf-4b11-b9a1-a004089cfc03" />
+      <TestMethod codeBase="D:/Codi/iExpertos/Roboexplorers/Iteracion1.2/RoboExplorers.Test/RoboExplorers.Test/bin/Debug/RoboExplorers.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RoboExplorers.Test.RoboExplorerTest, RoboExplorers.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SiInitializeNoMeDevueleOKNoLlamoAMove" />
+    </UnitTest>
+    <UnitTest name="SiHagoOperacionesQueDuranMasDe200MilisegundosEntreDosLlamadasElTiempoDeEsperaDebeSerInferiorAlTiempoDeLasOperacionesIntermediasMas20Milisegundos" storage="d:\codi\iexpertos\roboexplorers\iteracion1.2\roboexplorers.test\roboexplorers.test\bin\debug\roboexplorers.test.dll" id="98fb5723-3a3e-267e-9656-ea5dbdb24d73">
+      <Execution id="947f2f31-d609-4df8-aca1-f27034a28c76" />
+      <TestMethod codeBase="D:/Codi/iExpertos/Roboexplorers/Iteracion1.2/RoboExplorers.Test/RoboExplorers.Test/bin/Debug/RoboExplorers.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RoboExplorers.Test.WaitSomeTimeTest, RoboExplorers.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SiHagoOperacionesQueDuranMasDe200MilisegundosEntreDosLlamadasElTiempoDeEsperaDebeSerInferiorAlTiempoDeLasOperacionesIntermediasMas20Milisegundos" />
+    </UnitTest>
+    <UnitTest name="SiInitializeMeDevueleOKLlamoAMove" storage="d:\codi\iexpertos\roboexplorers\iteracion1.2\roboexplorers.test\roboexplorers.test\bin\debug\roboexplorers.test.dll" id="01a3e7b8-6b0d-18bb-5f61-d8873826dfaa">
+      <Execution id="77890240-c6a5-4c0b-8227-0b6b844106b6" />
+      <TestMethod codeBase="D:/Codi/iExpertos/Roboexplorers/Iteracion1.2/RoboExplorers.Test/RoboExplorers.Test/bin/Debug/RoboExplorers.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RoboExplorers.Test.RoboExplorerTest, RoboExplorers.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SiInitializeMeDevueleOKLlamoAMove" />
+    </UnitTest>
+    <UnitTest name="TengoQueLlamarAlCreadorDeTiradasAntesDeTirar" storage="d:\codi\iexpertos\roboexplorers\iteracion1.2\roboexplorers.test\roboexplorers.test\bin\debug\roboexplorers.test.dll" id="df1a2d2b-51fd-920a-7116-e2c3538c28b7">
+      <Execution id="79214d45-128b-4a60-962f-aa0c6378d862" />
+      <TestMethod codeBase="D:/Codi/iExpertos/Roboexplorers/Iteracion1.2/RoboExplorers.Test/RoboExplorers.Test/bin/Debug/RoboExplorers.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RoboExplorers.Test.RoboExplorerTest, RoboExplorers.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TengoQueLlamarAlCreadorDeTiradasAntesDeTirar" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="01a3e7b8-6b0d-18bb-5f61-d8873826dfaa" executionId="77890240-c6a5-4c0b-8227-0b6b844106b6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="01b6ffec-8b84-4c73-8a63-6723c8bd9ec9" executionId="b4741636-d6c2-4ded-b99f-89c3529615e3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="81afa8e2-1b34-5099-a9e6-9debbfae1d61" executionId="037eb6d1-c53d-4434-932f-57a135123fc4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8a496610-2df1-5692-f1fb-abdea48d3ea9" executionId="ad6ef151-6153-4127-8d63-a5685780cf95" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="98fb5723-3a3e-267e-9656-ea5dbdb24d73" executionId="947f2f31-d609-4df8-aca1-f27034a28c76" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a87b2540-300d-8595-b2ae-6881f040bd22" executionId="c4f5fd97-72b3-4aca-9fc0-b0614ae0c370" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aad2a240-d7aa-024c-e579-311a5878a392" executionId="c65883a0-bfbf-4b11-b9a1-a004089cfc03" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bf2652ba-4cc2-e011-2f79-22713ef77a44" executionId="60bbfbef-fd62-40a4-aca9-693de729e3c0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="df1a2d2b-51fd-920a-7116-e2c3538c28b7" executionId="79214d45-128b-4a60-962f-aa0c6378d862" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="77890240-c6a5-4c0b-8227-0b6b844106b6" testId="01a3e7b8-6b0d-18bb-5f61-d8873826dfaa" testName="SiInitializeMeDevueleOKLlamoAMove" computerName="VIGARCIA-PC" duration="00:00:00.2587466" startTime="2011-06-20T22:24:37.5093017+02:00" endTime="2011-06-20T22:24:38.0397026+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="77890240-c6a5-4c0b-8227-0b6b844106b6">
+    </UnitTestResult>
+    <UnitTestResult executionId="b4741636-d6c2-4ded-b99f-89c3529615e3" testId="01b6ffec-8b84-4c73-8a63-6723c8bd9ec9" testName="TengoQueLlamarAlSleeperAntesDeTirar" computerName="VIGARCIA-PC" duration="00:00:00.0064355" startTime="2011-06-20T22:24:38.0397026+02:00" endTime="2011-06-20T22:24:38.0553026+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b4741636-d6c2-4ded-b99f-89c3529615e3">
+    </UnitTestResult>
+    <UnitTestResult executionId="037eb6d1-c53d-4434-932f-57a135123fc4" testId="81afa8e2-1b34-5099-a9e6-9debbfae1d61" testName="NoRepitoDosTiradasConsecutivas" computerName="VIGARCIA-PC" duration="00:00:00.0005949" startTime="2011-06-20T22:24:38.0553026+02:00" endTime="2011-06-20T22:24:38.0553026+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="037eb6d1-c53d-4434-932f-57a135123fc4">
+    </UnitTestResult>
+    <UnitTestResult executionId="ad6ef151-6153-4127-8d63-a5685780cf95" testId="8a496610-2df1-5692-f1fb-abdea48d3ea9" testName="DespuesDeMilTiradasTodosLosNumerosEstanEntre0Y100" computerName="VIGARCIA-PC" duration="00:00:00.0004362" startTime="2011-06-20T22:24:38.0553026+02:00" endTime="2011-06-20T22:24:38.0709026+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ad6ef151-6153-4127-8d63-a5685780cf95">
+    </UnitTestResult>
+    <UnitTestResult executionId="947f2f31-d609-4df8-aca1-f27034a28c76" testId="98fb5723-3a3e-267e-9656-ea5dbdb24d73" testName="SiHagoOperacionesQueDuranMasDe200MilisegundosEntreDosLlamadasElTiempoDeEsperaDebeSerInferiorAlTiempoDeLasOperacionesIntermediasMas20Milisegundos" computerName="VIGARCIA-PC" duration="00:00:00.6073139" startTime="2011-06-20T22:24:38.0709026+02:00" endTime="2011-06-20T22:24:38.6949037+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="947f2f31-d609-4df8-aca1-f27034a28c76">
+    </UnitTestResult>
+    <UnitTestResult executionId="c4f5fd97-72b3-4aca-9fc0-b0614ae0c370" testId="a87b2540-300d-8595-b2ae-6881f040bd22" testName="Espero200MilisegundosEntreLlamadas" computerName="VIGARCIA-PC" duration="00:00:00.3959243" startTime="2011-06-20T22:24:38.6949037+02:00" endTime="2011-06-20T22:24:39.1005045+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c4f5fd97-72b3-4aca-9fc0-b0614ae0c370">
+    </UnitTestResult>
+    <UnitTestResult executionId="c65883a0-bfbf-4b11-b9a1-a004089cfc03" testId="aad2a240-d7aa-024c-e579-311a5878a392" testName="SiInitializeNoMeDevueleOKNoLlamoAMove" computerName="VIGARCIA-PC" duration="00:00:00.0068876" startTime="2011-06-20T22:24:39.1005045+02:00" endTime="2011-06-20T22:24:39.1161045+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c65883a0-bfbf-4b11-b9a1-a004089cfc03">
+    </UnitTestResult>
+    <UnitTestResult executionId="60bbfbef-fd62-40a4-aca9-693de729e3c0" testId="bf2652ba-4cc2-e011-2f79-22713ef77a44" testName="SiElServidorMeDevuelveGameOverDespuesDeUnMovimientoDejoDeMover" computerName="VIGARCIA-PC" duration="00:00:00.0052832" startTime="2011-06-20T22:24:39.1161045+02:00" endTime="2011-06-20T22:24:39.1317045+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="60bbfbef-fd62-40a4-aca9-693de729e3c0">
+    </UnitTestResult>
+    <UnitTestResult executionId="79214d45-128b-4a60-962f-aa0c6378d862" testId="df1a2d2b-51fd-920a-7116-e2c3538c28b7" testName="TengoQueLlamarAlCreadorDeTiradasAntesDeTirar" computerName="VIGARCIA-PC" duration="00:00:00.0040266" startTime="2011-06-20T22:24:39.1317045+02:00" endTime="2011-06-20T22:24:39.1473045+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="79214d45-128b-4a60-962f-aa0c6378d862">
+    </UnitTestResult>
+  </Results>
+</TestRun>
